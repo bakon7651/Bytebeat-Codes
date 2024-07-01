@@ -1,1 +1,1 @@
-still w.i.p
+set sample rate to 32000Hz
