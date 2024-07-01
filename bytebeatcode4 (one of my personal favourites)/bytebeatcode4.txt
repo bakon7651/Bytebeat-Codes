@@ -1,0 +1,5 @@
+// hydrogen f#cker
+// Bytebeat created by psubscirbe
+// Things you must configure: Set the sample rate to 8kHz
+
+(t/2/(4+(t>>13&3))*128|t>>(t>>12&15))+400000/(t&4095)|t>>4
