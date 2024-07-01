@@ -1,0 +1,6 @@
+// Bytebeat coded by bakon7651
+// Used in: https://youtu.be/nk_MKMu19jU?list=PLIXeLwEPfPjhC6TkpKKR-2sABCPdBK9mM
+// Things you must configure: Set the sample rate to 32kHz
+// Discovered by 1583736 on Reddit
+
+t=3*(t-(t>>10&4|t>>13&3|t>>17&6|t>>14&4)*t/((t>>16&7)+4)),128*abs(1-abs(.5+cos(t/64.25))**.3)**(1-abs(1-abs(.5-sin(t/63.75))**.5))+32
